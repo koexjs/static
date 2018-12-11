@@ -34,7 +34,7 @@ describe('koa static', () => {
         .expect('vary', 'Accept-Encoding')
         .expect(200)
         .then(response => {
-          response.body.name.should.equal('@zcorky/koa-static');
+          response.body.name.should.equal('@koex/static');
         });
     });
 
@@ -145,7 +145,7 @@ describe('koa static', () => {
         .get(`/static/package.json`)
         .expect(200)
         .then(response => {
-          response.body.name.should.equal('@zcorky/koa-static');
+          response.body.name.should.equal('@koex/static');
         });
     });
 
