@@ -1,10 +1,10 @@
 {
-  "name": "@zcorky/koa-static",
+  "name": "@koex/static",
   "version": "0.0.1",
-  "description": "simple static cache for koa",
+  "description": "static cache for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "https://github.com/zcorky/koa-static",
+  "repository": "https://github.com/koexjs/static",
   "author": "Zero",
   "license": "MIT",
   "scripts": {
